@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.QuanLyLichChieuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:background="@color/red"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:gravity="center"
+        android:text="QUẢN LÝ LỊCH CHIẾU"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_x="0dp"
+        android:layout_y="151dp"
+        android:background="@drawable/ic_wave" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/autoComplete_lichchieu"
+            android:gravity="center"
+            android:hint="Tìm kiếm"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bogoc" />
+        <Button
+            android:id="@+id/btn_them_lichchieu"
+            android:background="#00000000"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:drawableStart="@drawable/ic_add"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_lichchieu" />
+</LinearLayout>

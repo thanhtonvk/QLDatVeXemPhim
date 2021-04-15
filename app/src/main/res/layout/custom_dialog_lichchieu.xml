@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="Thông tin lịch chiếu"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_wave" />
+
+    <TextView
+        android:id="@+id/tv_malichchieu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:text="Mã lịch chiếu"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_phim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:text="Phim"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_ngaychieu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:text="Ngày chiếu"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_cachieu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:text="Ca chiếu"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_dialog_xoalichchieu"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/bogoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa lịch chiếu"/>
+</LinearLayout>

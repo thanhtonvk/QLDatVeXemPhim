@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.NhanVienActivity">
+    <TextView
+        android:drawableEnd="@drawable/ic_admin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="TRANG QUẢN TRỊ"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_wave"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_khachhang"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL Khách Hàng"
+            android:drawableTop="@drawable/ic_customer"/>
+        <Button
+            android:id="@+id/btn_qllichchieu"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL lịch chiếu"
+            android:drawableTop="@drawable/ic_calendar"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_qlphim"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL Phim"
+            android:drawableTop="@drawable/ic_film"/>
+        <Button
+            android:id="@+id/btn_qlphongchieu"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL Phòng chiếu"
+            android:drawableTop="@drawable/ic_room"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_qlve"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL vé"
+            android:drawableTop="@drawable/ic_card"/>
+        <Button
+            android:id="@+id/btn_qltaikhoan"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="QL tài khoản"
+            android:drawableTop="@drawable/ic_setting"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_dangxuat"
+            android:background="#00D50000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:drawableTop="@drawable/ic_logout"/>
+    </LinearLayout>
+</LinearLayout>

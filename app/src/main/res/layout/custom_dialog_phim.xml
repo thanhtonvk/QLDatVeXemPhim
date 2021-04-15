@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:drawableEnd="@drawable/ic_add"
+        android:gravity="center"
+        android:text="Thêm phim"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_wave" />
+<!--    String maphim, String tenloai, String mota, String tenphim-->
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_tenphim"
+        android:gravity="center"
+        android:hint="Tên phim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bogoc"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_tenloai"
+        android:gravity="center"
+        android:hint="Tên loại"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bogoc"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_mota"
+        android:gravity="center"
+        android:hint="Mô tả"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bogoc"/>
+
+    <Button
+        android:id="@+id/btn_dialog_themphim"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/bogoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm phim"/>
+</LinearLayout>
