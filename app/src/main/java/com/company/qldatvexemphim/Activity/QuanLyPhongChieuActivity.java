@@ -33,7 +33,7 @@ public class QuanLyPhongChieuActivity extends AppCompatActivity {
         phongChieuArrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, MainActivity.database.layDsPhongChieu());
         listView.setAdapter(phongChieuArrayAdapter);
         autoComplete_phongchieu.setAdapter(phongChieuArrayAdapter);
-        setDialog_them();
+        eventOnClick();
     }
     private void init(){
         btn_them_phongchieu = findViewById(R.id.btn_them_phongchieu);
@@ -44,7 +44,7 @@ public class QuanLyPhongChieuActivity extends AppCompatActivity {
         btn_them_phongchieu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                setDialog_them();
             }
         });
     }
@@ -68,8 +68,6 @@ public class QuanLyPhongChieuActivity extends AppCompatActivity {
 
             }
         });
-        dialog_them.show();
-
         dialog_them.show();
     }
     public String autoMaPhongChieu() {

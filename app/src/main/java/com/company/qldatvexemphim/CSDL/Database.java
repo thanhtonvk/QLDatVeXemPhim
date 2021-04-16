@@ -53,7 +53,7 @@ public class Database extends SQLiteOpenHelper {
 //        String malichchieu, String ngaychieu, String cachieu
         db.execSQL("CREATE TABLE LICHCHIEU(" +
                 "MALICHCHIEU CHAR(5) PRIMARY KEY," +
-                "MAPHIM CHAR(5),"+
+                "MAPHIM TEXT NOT NULL,"+
                 "NGAYCHIEU DATETIME," +
                 "CACHIEU TEXT)");
         //TẠO BẢNG PHIM

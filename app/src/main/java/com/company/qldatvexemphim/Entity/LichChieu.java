@@ -51,6 +51,6 @@ public class LichChieu {
     @NonNull
     @Override
     public String toString() {
-        return "Mã phim: "+maphim +"\nNgày chiếu: "+ngaychieu+"\nCa chiếu: "+cachieu;
+        return maphim +"\nNgày chiếu: "+ngaychieu+"\nCa chiếu: "+cachieu;
     }
 }
